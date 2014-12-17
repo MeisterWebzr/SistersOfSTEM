@@ -13,10 +13,10 @@
 
 ##### Week 3 APPROVED (Dec 8 – Dec 11)
 > User Interface & User Experience
-* [Home](Github/PinkPineapple/SistersOfSTEM/docs/PNG/Home.png)
-* [About Us](AboutUs.png)
+* [Home](PNG/Home.png)
+* [About Us](PNG/AboutUs.png)
 * [EduSource](PNG/EduSources.png)
 * [STEM Events](PNG/Events.png)
 * [DIY-Experiments](PNG/DIY-Exp.png)
 * [DIY-Experiment PopUp](PNG/DIY-Exp-PopUp.png)
-* [Contact Us](ContactUs.png)
+* [Contact Us](PNG/ContactUs.png)
