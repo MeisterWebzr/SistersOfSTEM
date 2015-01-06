@@ -14,12 +14,16 @@
 ##### Week 3 APPROVED (Dec 8 – Dec 11)
 > User Interface & User Experience
 * [Home](PNG/Home.png)
-* [About Us](AboutUs.png)
+* [About Us](PNG/AboutUs.png)
 * [EduSource](PNG/EduSources.png)
 * [STEM Events](PNG/Events.png)
 * [DIY-Experiments](PNG/DIY-Exp.png)
 * [DIY-Experiment PopUp](PNG/DIY-Exp-PopUp.png)
+<<<<<<< HEAD
 * [Contact Us](ContactUs.png)
+=======
+* [Contact Us](PNG/ContactUs.png)
+>>>>>>> gh-pages
 
 
 ##### Week 4 IN PROGRESS (Dec 12 – Dec 18)
