@@ -112,14 +112,33 @@ body {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+  color: black;
+  padding:10px ;
+  text-align: center;
 }
+
+ #first{
+  background-color: #B5446E;
+  font-size: 40px;
+ }
+ 
+ #second{
+  background-color: #cccc00;
+  font-size: 40px;
+ }
+ #third{
+  background-color: #745296;
+  font-size: 40px;
+ }
 
 
 /* Footer
 --------------------------*/
 footer{
   background-color: #cccc00;
+  height: 25px;
   width: 100%;
+  text-align: center;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -133,17 +152,17 @@ footer{
   .navbar-wrapper {
     margin-top: 20px;
   }
-  .navbar-wrapper .container {
+  .nav-pills .container {
     padding-right: 15px;
     padding-left: 15px;
   }
-  .navbar-wrapper .navbar {
+  .navbar-wrapper .nav-pills {
     padding-right: 0;
     padding-left: 0;
   }
 
   /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
+  .navbar-wrapper .nav-pills {
     border-radius: 4px;
   }
 
@@ -164,3 +183,34 @@ footer{
     margin-top: 120px;
   }
 }
+
+
+/* EDU-SOURCE CSS
+------------------------------------*/
+
+#droppers{
+  vertical-align: center;
+  text-align: center;
+  margin-top: 10%;
+}
+
+#drop-1{
+  color: #745296;
+}
+#drop-2{
+  color: #cccc00;
+}
+#drop-3{
+  color: #B5446E;
+}
+#drop-4{
+  color: #745296;
+}
+
+#droppers ul{
+  font-size: 15px;
+  text-align: left;
+  list-style-type: none;
+
+}
+
