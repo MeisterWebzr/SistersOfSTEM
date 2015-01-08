@@ -227,6 +227,7 @@ footer{
 #textarea{
   height: 150px;
 }
+
 .row_{
   width: 40%;
   vertical-align: center;
@@ -243,5 +244,17 @@ footer{
   width: 82%;
   border-radius: 8px;
 }
+
+/* DIY
+-------------------------------------*/
+.thumb {
+    margin-bottom: 30px;
+}
+
+.page-header{
+  text-align: center;
+  margin-top: 10%;
+}
+
 
 
