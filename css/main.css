@@ -2,6 +2,7 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
@@ -213,4 +214,34 @@ footer{
   list-style-type: none;
 
 }
+
+/* Contact Us
+-------------------------------*/
+#textinput, #textarea, #singlebutton{
+  width: 100%;
+  border: #cccc00 solid 1.5px;
+  border-radius: 8px;
+
+}
+
+#textarea{
+  height: 150px;
+}
+.row_{
+  width: 40%;
+  vertical-align: center;
+  margin-top: 15%;
+  margin-left: 30%;
+  padding-bottom: 35px;
+}
+
+.row_ h1{
+  color:#dbe0e3;
+  border: #cccc00 solid 1.5px;
+  text-align: center;
+  background-color:#745296;
+  width: 82%;
+  border-radius: 8px;
+}
+
 
