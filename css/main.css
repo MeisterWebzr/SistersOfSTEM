@@ -281,6 +281,10 @@ footer{
   color:#000000;
 }
 
+.collapse3{
+  background-color: #cccc00;
+}
+
 /* Contact Us
 -------------------------------*/
 #textinput, #textarea, #singlebutton{
@@ -320,6 +324,42 @@ footer{
 .page-header{
   text-align: center;
   margin-top: 10%;
+}
+
+
+/* About US
+-------------------------------------*/
+.title{
+  text-align: center;
+  margin-top: 10%;
+
+}
+.biography{
+  vertical-align: center;
+    margin: 20px 20px 0 0;  
+    overflow: auto;
+}
+
+.paragraph{
+  float:left;
+ width: 50%;
+
+}
+.first-image{
+  display:block;
+}
+
+.quote{
+  padding: 25px;
+  width: 90%;
+  text-align: center;
+  vertical-align: center;
+}
+
+.second-image , .third-image{
+  display: block;
+  margin-left: 200px;
+  vertical-align: center;
 }
 
 
