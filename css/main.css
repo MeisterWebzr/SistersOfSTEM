@@ -197,15 +197,19 @@ footer{
 
 #drop-1{
   color: #745296;
+  font-size: 30px;
 }
 #drop-2{
   color: #cccc00;
+  font-size: 30px;
 }
 #drop-3{
   color: #B5446E;
+  font-size: 30px;
 }
 #drop-4{
   color: #745296;
+  font-size: 30px;
 }
 
 #droppers ul{
@@ -213,6 +217,68 @@ footer{
   text-align: left;
   list-style-type: none;
 
+}
+
+/* Edusource/Drop DOWN
+-------------------------------------*/
+/*First Drop Down*/
+
+.firstchild li:first-child{
+  background-color: #745296;
+  opacity: .6;
+  color:#dbe0e3;
+}
+
+.firstchild a, .thirdchild a{
+  color:#000;
+}
+
+ .firstchild li:last-child{
+  background-color: #745296;
+  opacity: .6;
+  color:#dbe0e3;
+}
+
+/*Second Drop Down*/
+
+.secondchild li:first-child{
+  background-color: #cccc00;
+  opacity: .6;
+  color:#000000;
+}
+
+ .secondchild li:last-child{
+  background-color: #cccc00;
+  opacity: .6;
+  color:#000000;
+}
+
+/*Third Drop Down*/
+
+.thirdchild li:first-child{
+  background-color: #B5446E;
+  opacity: .6;
+  color:#dbe0e3;
+}
+
+ .thirdchild li:last-child{
+  background-color: #B5446E;
+  opacity: .6;
+  color:#dbe0e3;
+}
+
+/*Fourth Drop Down*/
+
+.fourthchild li:first-child{
+  background-color: #745296;
+  opacity: .6;
+  color:#000000;
+}
+
+ .fourthchild li:last-child{
+  background-color: #745296;
+  opacity: .6;
+  color:#000000;
 }
 
 /* Contact Us
@@ -255,6 +321,8 @@ footer{
   text-align: center;
   margin-top: 10%;
 }
+
+
 
 
 
