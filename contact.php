@@ -8,7 +8,7 @@
     <meta name="Free Rosas" content="STEM-related website">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Sister of STEM | Events</title>
+    <title>Sister of STEM | Contact Us</title>
     <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
@@ -26,8 +26,7 @@
 ================================================== -->
   <body>
    <div class="container">
-
-     <a href="index.html">
+        <a href="index.html">
         <img id ="logo" src="images/logo.png" alt=""></a>
             <ul class="nav nav-pills">
               <li id="pink"><a href="about.html">About Us</a></li>
@@ -36,26 +35,25 @@
               <li id="pink"><a href="diy.html">DIY Experiments</a></li>
               <li id="green"><a href="contact.html">Contact Us</a></li>
             </ul>
-            <!--Google Calendar-->
-            <div class="calendar">
-              <iframe src="https://www.google.com/calendar/embed?title=Sisters%20of%20STEM%3A%20Local%20Event%20Calendar&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffcccc&amp;src=sistersofstem%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style=" border:solid 1px #777 " width="500" height="300" frameborder="0" scrolling="no">
-              </iframe>
-            </div>
-            <article>
-            <h3> Have an event coming up?</h3>
-            <h4>Let us know</h4>
-            <h4><a href="">Contact Us</a></h4>
-              
-            </article>
 
-  </div><!-- /.container -->
+<!-- Contact Form
+================================================== -->
+   Name: <input type="text" name="name" value="<?php echo $name;?>">
+
+   E-mail: <input type="text" name="email" value="<?php echo $email;?>">
+
+   Website: <input type="text" name="website" value="<?php echo $website;?>">
+
+   Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
+
+   	</div>
 
      <!-- FOOTER -->
       <footer>
       <i class="fa fa-twitter"></i>
       <i class="fa fa-linkedin"></i>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-         <p class="pull-left">&copy; 2014 Pink Pineapple, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p> </footer>
+        <p class="pull-left">&copy; 2014 Pink Pineapple, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
 
 
     <!-- Bootstrap core JavaScript
