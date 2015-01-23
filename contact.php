@@ -30,6 +30,10 @@ if(isset($_POST['submitted']))
 }
 
 ?>
+<<<<<<< HEAD
+=======
+
+>>>>>>> d5e28a2300fffa92b26a935aaaceddaeadffd236
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -64,10 +68,17 @@ if(isset($_POST['submitted']))
 <head>
       <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
       <title>Contact us</title>
+<<<<<<< HEAD
       <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
 </head>
 <div class="container">
 
+=======
+      <link rel="STYLESHEET" type="text/css" href="contact.css" />
+      <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
+</head>
+<div class="container">
+>>>>>>> d5e28a2300fffa92b26a935aaaceddaeadffd236
         <a href="index.html">
         <img id ="logo" src="images/logo.png" alt=""></a>
             <ul class="nav nav-pills">
@@ -78,6 +89,7 @@ if(isset($_POST['submitted']))
               <li id="green"><a href="contact.php">Contact Us</a></li>
             </ul>
 <body>
+<<<<<<< HEAD
 <div id="wrapper">
 <!-- Form Code Start -->
 <form id='contactus' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
@@ -96,17 +108,47 @@ if(isset($_POST['submitted']))
 <div class='container'>
     <!--<label for='email' >Email Address:</label><br/> -->
     <input type='text' name='email' id='email' placeholder="Email Address" value='<?php echo $formproc->SafeDisplay('email') ?>' maxlength="50" /><br/>
+=======
+
+<!-- Form Code Start -->
+<form id='contactus' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
+<fieldset >
+<legend>Contact us</legend>
+
+<input type='hidden' name='submitted' id='submitted' value='1'/>
+<input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>'/>
+<input type='text'  class='spmhidip' name='<?php echo $formproc->GetSpamTrapInputName(); ?>' />
+
+<div class='short_explanation'>* required fields</div>
+
+<div><span class='error'><?php echo $formproc->GetErrorMessage(); ?></span></div>
+<div class='container'>
+    <label for='name' >Your Full Name*: </label><br/>
+    <input type='text' name='name' id='name' value='<?php echo $formproc->SafeDisplay('name') ?>' maxlength="50" /><br/>
+    <span id='contactus_name_errorloc' class='error'></span>
+</div>
+<div class='container'>
+    <label for='email' >Email Address*:</label><br/>
+    <input type='text' name='email' id='email' value='<?php echo $formproc->SafeDisplay('email') ?>' maxlength="50" /><br/>
+>>>>>>> d5e28a2300fffa92b26a935aaaceddaeadffd236
     <span id='contactus_email_errorloc' class='error'></span>
 </div>
 
 <div class='container'>
+<<<<<<< HEAD
     <!-- <label for='message' >Message:</label><br/> -->
     <span id='contactus_message_errorloc' class='error'></span>
     <textarea rows="10" cols="50" name='message' placeholder="Say Hello.." id='message'><?php echo $formproc->SafeDisplay('message') ?></textarea>
+=======
+    <label for='message' >Message:</label><br/>
+    <span id='contactus_message_errorloc' class='error'></span>
+    <textarea rows="10" cols="50" name='message' id='message'><?php echo $formproc->SafeDisplay('message') ?></textarea>
+>>>>>>> d5e28a2300fffa92b26a935aaaceddaeadffd236
 </div>
 
 
 <div class='container'>
+<<<<<<< HEAD
     <input type='submit' id="button" name='Submit' value='Submit' />
 </div>
 
@@ -133,6 +175,32 @@ Uses the excellent form validation script from JavaScript-coder.com-->
 </script>
 <div></div>
 </div>
+=======
+    <input type='submit' name='Submit' value='Submit' />
+</div>
+
+</fieldset>
+</form>
+<!-- client-side Form Validations:
+Uses the excellent form validation script from JavaScript-coder.com-->
+
+<script type='text/javascript'>
+// <![CDATA[
+
+    var frmvalidator  = new Validator("contactus");
+    frmvalidator.EnableOnPageErrorDisplay();
+    frmvalidator.EnableMsgsTogether();
+    frmvalidator.addValidation("name","req","Please provide your name");
+
+    frmvalidator.addValidation("email","req","Please provide your email address");
+
+    frmvalidator.addValidation("email","email","Please provide a valid email address");
+
+    frmvalidator.addValidation("message","maxlen=2048","The message is too long!(more than 2KB!)");
+
+// ]]>
+</script>
+>>>>>>> d5e28a2300fffa92b26a935aaaceddaeadffd236
 
      <!-- FOOTER -->
       <footer>

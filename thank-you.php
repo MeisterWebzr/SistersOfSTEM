@@ -7,7 +7,11 @@
 </head>
 <body>
 
+<<<<<<< HEAD
 <h2>Thanks for reaching out to us! We look forward to speaking with you soon.</h2>
+=======
+<h2>Thanks for contacting us!</h2>
+>>>>>>> d5e28a2300fffa92b26a935aaaceddaeadffd236
 
 </body>
 </html>
