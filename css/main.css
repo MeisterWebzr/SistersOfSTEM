@@ -1,7 +1,16 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-
+html,
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+#wrapper {
+  min-height:100%;
+  position:relative;
+}
 
 body {
   padding-bottom: 40px;
@@ -9,9 +18,6 @@ body {
   background-color: #dbe0e3;
 }
 
-.container{
-  overflow: hidden;
-}
 
 
 /* CUSTOMIZE THE NAVBAR
@@ -41,12 +47,12 @@ body {
 
   }
   .nav-pills #green{
-     text-decoration: none;
-  font-weight: bold;
-  border-radius:0px;
-  border-bottom-width: 6px;
-  border-bottom-style: solid;
-  border-bottom-color: #cccc00;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius:0px;
+      border-bottom-width: 6px;
+      border-bottom-style: solid;
+      border-bottom-color: #cccc00;
       color: #000 !important;
     background-color: transparent !important;
   }
@@ -121,11 +127,26 @@ body {
 --------------------------*/
 footer{
   background-color: #cccc00;
-  height: 25px;
+  height: 45px;
   width: 100%;
-  text-align: center;
   padding-left: 25px;
   padding-right: 25px;
+  position:absolute;
+  bottom:0;
+  left:0;
+}
+
+footer p{
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#sm{
+  float: right;
+  padding: 8px;
+  margin-bottom: 5px;
+  display: inline-block;
+  height: 100%;
 }
 
 
@@ -180,19 +201,19 @@ footer{
 }
 
 #drop-1{
-/*  color: #745296; */
+  color: #745296;
   font-size: 30px;
 }
 #drop-2{
-  /*color: #cccc00;*/
+  color: #cccc00;
   font-size: 30px;
 }
 #drop-3{
-  /*color: #B5446E;*/
+  color: #B5446E;
   font-size: 30px;
 }
 #drop-4{
-  /*color: #745296;*/
+  color: #745296;
   font-size: 30px;
 }
 
@@ -205,98 +226,164 @@ footer{
 
 /* Edusource/Drop DOWN
 -------------------------------------*/
-/*First Drop Down
+/*First Drop Down*/
 
-.firstchild li:first-child{
+.firstchild a, .secondchild a, .thirdchild a, .fourthchild a{
+  color: #000000;
+  text-align: center;
+}
+
+
+.firstchild > #one_{
   background-color: #745296;
+  padding-left: 5px;
+  border-radius: 4px;
   opacity: .6;
   color:#dbe0e3;
 }
 
-.firstchild a, .thirdchild a{
-  color:#000;
-}
-
- .firstchild li:last-child{
+.firstchild > #three_{
   background-color: #745296;
   opacity: .6;
+  padding-left: 5px;
+  border-radius: 4px;
+  color:#dbe0e3;
+}
+.firstchild > #five_{
+  background-color: #745296;
+  opacity: .6;
+  padding-left: 5px;
+  border-radius: 4px;
   color:#dbe0e3;
 }
 
-/*Second Drop Down
 
-.secondchild li:first-child{
+/*Second Drop Down*/
+
+.secondchild > #one__{
   background-color: #cccc00;
   opacity: .6;
-  color:#000000;
+  padding-left: 5px;
+  border-radius: 4px;
+  color:#dbe0e3;
 }
 
- .secondchild li:last-child{
+ .secondchild > #three__{
   background-color: #cccc00;
   opacity: .6;
-  color:#000000;
-}
-
-/*Third Drop Down
-
-.thirdchild li:first-child{
-  background-color: #B5446E;
-  opacity: .6;
+  padding-left: 5px;
+  border-radius: 4px;
   color:#dbe0e3;
 }
 
- .thirdchild li:last-child{
+/*Third Drop Down*/
+
+.thirdchild > #one___{
   background-color: #B5446E;
-  opacity: .6;
+  padding-left: 5px;
+  border-radius: 4px;
   color:#dbe0e3;
 }
 
-/*Fourth Drop Down
-
-.fourthchild li:first-child{
-  background-color: #745296;
-  opacity: .6;
-  color:#000000;
+ .thirdchild > #three___{
+  background-color: #B5446E;
+   padding-left: 5px;
+  border-radius: 4px;
+  color:#dbe0e3;
 }
 
- .fourthchild li:last-child{
+/*Fourth Drop Down*/
+
+.fourthchild > #one____{
   background-color: #745296;
-  opacity: .6;
-  color:#000000;
+  padding-left: 5px;
+  border-radius: 4px;
+  color:#dbe0e3;
+}
+
+ .fourthchild > #three____{
+  background-color: #745296;
+  padding-left: 5px;
+  border-radius: 4px;
+  color:#dbe0e3;
+}
+
+.fourthchild > #five____{
+  background-color: #745296;
+  padding-left: 5px;
+  border-radius: 4px;
+  color:#dbe0e3;
 }
 
 .collapse3{
   background-color: #cccc00;
 }
-
+#accordion h2.active {
+ background-color:#4BB347;   
+}
 /* Contact Us
 -------------------------------*/
-#textinput, #textarea, #singlebutton{
+
+form{
+  margin-top: 15%;
+  vertical-align: center;
+  width: 50%;
+  margin-left: 23%;
+}
+
+
+#name, #email, #message, #singlebutton{
   width: 100%;
   border: #cccc00 solid 1.5px;
   border-radius: 8px;
-
+  margin-bottom: 10px;
 }
 
-#textarea{
-  height: 150px;
-}
-
-.row_{
-  width: 40%;
-  vertical-align: center;
-  margin-top: 15%;
-  margin-left: 30%;
-  padding-bottom: 35px;
-}
-
-.row_ h1{
+legend {
+  margin-top: 5px;
   color:#dbe0e3;
   border: #cccc00 solid 1.5px;
   text-align: center;
   background-color:#745296;
-  width: 82%;
   border-radius: 8px;
+  width:68%;
+  font-size: 30px;
+  vertical-align: center;
+
+}
+
+#button{
+  background-color: #745296;
+  color: #dbe0e3;
+  border-radius: 8px;
+  font-size: 22px;
+}
+
+
+#message , #email , #name, #button{
+  width: 35%;
+  margin-left: 6%;
+  padding-left: 8px;
+}
+/*
+#name , #email{
+  height: 50px;
+  width: 35%;
+}
+
+legend {
+  margin-top: 5px;
+  color:#dbe0e3;
+  border: #cccc00 solid 1.5px;
+  text-align: center;
+  background-color:#745296;
+  border-radius: 8px;
+}
+
+legend, fieldset #name, fieldset #email, fieldset #message, fieldset #button{
+width: 40%;
+margin-left: 10%;
+padding: 5px;
 }
 
 /* DIY
@@ -313,9 +400,10 @@ footer{
 
 /* About US
 -------------------------------------*/
-.title{
+.title-about{
   text-align: center;
-  padding-bottom: 20px;
+  margin-top: 10%;
+  margin-bottom: 3%;
 }
 .biography{
     vertical-align: center;
@@ -324,17 +412,34 @@ footer{
 
 .paragraph{
  margin-left: 20px;
- text-indent: 8px;
+ text-align: center;
+ margin-top:15px;
  float:left;
+ font-size: 15px;
  width: 35%;
- margin-bottom:10px;
+
+}
+
+.paragraph p{
+  margin-left: 22px;
+}
+#img-two{
+  float: left;
+  margin-left: -15px;
+
+}
+
+#img-three{
+  float:right;
+  margin-right:14%;
+
 
 }
 
 .first-image{
-  padding-left:75px;
+  padding-left:7.0%;
   overflow: hidden;
-  width: 450px;
+  margin-bottom: 15px;
   }
 
 .quote{
@@ -343,6 +448,7 @@ footer{
   margin-bottom: 20px;
   vertical-align: center;
   margin-left:5%;
+  border-radius: 5px;
   width: 85%;
   opacity: 0.7;
 }
@@ -356,41 +462,74 @@ footer{
 
 .row{
   margin-bottom: 25px;
-  width: 90%;
+  width: 100%;
   margin-left: 35px;
+  margin-bottom: -20px;
 
 }
-.row img{
-  width: 300px;
-}
-/*--------Events----------*/
-#event-title{
-  color: #000000;
-  font-size: 48px;
-  margin-top: 115px;
-  text-align: center;
-  margin-bottom:-50px;
-}
-.calendar{
-  margin-left: 50px;
-  margin-top: 80px;
-  box-shadow: 8px 8px 5px #888888;
-  margin-bottom: 50px;
-  width: 500px;
-}
+/*--------Events---------- */
+ .cal-title{ margin-top: 15%; text-align: center; padding-bottom: 10px; font-size: 42px; color: #745296; }
 
-article{
-  padding:10px;
-  position: absolute;
-  margin-top: 35px;
-  box-shadow: 8px 8px 5px #888888;
-  margin-left:550px;
-  text-align: center;
-  width: 300px;
-  height: 230px;
-  background-color: #cccc00;
-}
+  .calendar { width: 100%; font-size: 0.75em;/*12*/ line-height: 1.25em;/*15*/ border-collapse: collapse; border-spacing: 0; }
 
+  .calendar th { text-align: left; }
+  .calendar th span { display: none; }
+
+  .calendar tr { display: block; }
+  .calendar td,
+  .calendar th { display: none; }
+
+  .calendar .day { margin: 1em 0 .5em 0; font-weight: bold; }
+
+  .calendar .events { display: block; }
+
+  .calendar ul { display: block; list-style: none; margin: 0 1.25em 0 0;/*15*/ padding: 0; }
+  .calendar li { display: block; position: relative; margin: 0; padding: 0; height: 1.25em;/*15*/ }
+  .calendar li a { display: block; position: absolute; left: 0; right: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;  }
+
+  .calendar tr td:nth-of-type(1n) .day:before { content: 'Monday '; }
+  .calendar tr td:nth-of-type(2n) .day:before { content: 'Tueday '; }
+  .calendar tr td:nth-of-type(3n) .day:before { content: 'Wednesday '; }
+  .calendar tr td:nth-of-type(4n) .day:before { content: 'Thursday '; }
+  .calendar tr td:nth-of-type(5n) .day:before { content: 'Friday '; }
+  .calendar tr td:nth-of-type(6n) .day:before { content: 'Saturday '; }
+  .calendar tr td:nth-of-type(7n) .day:before { content: 'Sunday '; }
+
+  .calendar .prev-month,
+  .calendar .next-month { display: none; }
+
+  @media only screen and (min-width: 30em) { /*480*/
+
+
+    .calendar tr { display: table-row; }
+    .calendar th, .calendar td { display: table-cell !important; margin: 0; width: 14.2857%; padding: 0.4166em;/*10*/ border: 1px solid #babcbf; vertical-align: top; }
+
+    .calendar .prev-month .day,
+    .calendar .next-month .day { color: #bbb; }
+
+    .calendar td .day { display: block; float: right; margin: 0; font-weight: normal; }
+    .calendar td .day:before { display: none; }
+    .calendar td .suffix { display: none; }
+
+  }
+
+  @media only screen and (min-width: 40em) { /*640*/
+
+    /* show full days (e.g. "Mon" to "Monday") */
+    .calendar th span { display: inline; }
+
+  }
+
+  @media only screen and (min-width: 40em) and (min-height: 20em) {
+
+    .calendar td { height: 2.5em;/*30*/ }
+
+  }
+  @media only screen and (min-width: 40em) and (min-height: 40em) {
+
+    .calendar td { height: 6.25em;/*75*/ }
+
+  }
 
 /*--------Home-------*/
 #bricks, #science{
@@ -398,6 +537,17 @@ margin-top: 10px;
 margin-left: 70px;
 border:white 2px solid;
 }
+
+.row{
+  padding-bottom: 10%;
+}
+
+#slider{
+  border: 2px black solid;
+  width: 300px;
+}
+
+
 
 
 

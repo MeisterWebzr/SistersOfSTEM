@@ -1,0 +1,27 @@
+
+
+#name, #email, #message, #singlebutton{
+  width: 100%;
+  border: #cccc00 solid 1.5px;
+  border-radius: 8px;
+
+}
+
+#message{
+  height: 150px;
+  width: 35%;
+}
+
+#name , #email{
+  height: 50px;
+  width: 35%;
+}
+
+legend {
+  color:#dbe0e3;
+  border: #cccc00 solid 1.5px;
+  text-align: center;
+  background-color:#745296;
+  width: 20%;
+  border-radius: 8px;
+}
