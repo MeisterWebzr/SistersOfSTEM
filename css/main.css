@@ -9,6 +9,10 @@ body {
   background-color: #dbe0e3;
 }
 
+.container{
+  overflow: hidden;
+}
+
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -27,13 +31,13 @@ body {
 
   .nav-pills #pink{
      text-decoration: none;
-  font-weight: bold;
-  border-radius:0px;
-  border-bottom-width: 6px;
-  border-bottom-style: solid;
-  border-bottom-color: #B5446E;
+      font-weight: bold;
+      border-radius:0px;
+      border-bottom-width: 6px;
+      border-bottom-style: solid;
+      border-bottom-color: #B5446E;
       color: #000 !important;
-    background-color: transparent !important;
+      background-color: transparent !important;
 
   }
   .nav-pills #green{
@@ -74,8 +78,9 @@ body {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-#sliderFrame
+#slider
 {
+  width: 100%;
   margin-top: 400px;
 }
 
@@ -175,19 +180,19 @@ footer{
 }
 
 #drop-1{
-  color: #745296;
+/*  color: #745296; */
   font-size: 30px;
 }
 #drop-2{
-  color: #cccc00;
+  /*color: #cccc00;*/
   font-size: 30px;
 }
 #drop-3{
-  color: #B5446E;
+  /*color: #B5446E;*/
   font-size: 30px;
 }
 #drop-4{
-  color: #745296;
+  /*color: #745296;*/
   font-size: 30px;
 }
 
@@ -200,7 +205,7 @@ footer{
 
 /* Edusource/Drop DOWN
 -------------------------------------*/
-/*First Drop Down*/
+/*First Drop Down
 
 .firstchild li:first-child{
   background-color: #745296;
@@ -218,7 +223,7 @@ footer{
   color:#dbe0e3;
 }
 
-/*Second Drop Down*/
+/*Second Drop Down
 
 .secondchild li:first-child{
   background-color: #cccc00;
@@ -232,7 +237,7 @@ footer{
   color:#000000;
 }
 
-/*Third Drop Down*/
+/*Third Drop Down
 
 .thirdchild li:first-child{
   background-color: #B5446E;
@@ -246,7 +251,7 @@ footer{
   color:#dbe0e3;
 }
 
-/*Fourth Drop Down*/
+/*Fourth Drop Down
 
 .fourthchild li:first-child{
   background-color: #745296;
@@ -310,29 +315,35 @@ footer{
 -------------------------------------*/
 .title{
   text-align: center;
-  margin-top: 10%;
-
+  padding-bottom: 20px;
 }
 .biography{
-  vertical-align: center;
-    margin: 20px 20px 0 0;  
+    vertical-align: center;
     overflow: auto;
 }
 
 .paragraph{
- margin-top: 7px; 
+ margin-left: 20px;
  text-indent: 8px;
  float:left;
- width: 50%;
+ width: 35%;
+ margin-bottom:10px;
 
 }
 
+.first-image{
+  padding-left:75px;
+  overflow: hidden;
+  width: 450px;
+  }
+
 .quote{
-  margin-left: 10px;
-  padding: 15px;
+  padding: 5px;
   background-color: #B5446E;
   margin-bottom: 20px;
-  width: 100%;
+  vertical-align: center;
+  margin-left:5%;
+  width: 85%;
   opacity: 0.7;
 }
 
@@ -345,20 +356,39 @@ footer{
 
 .row{
   margin-bottom: 25px;
+  width: 90%;
+  margin-left: 35px;
+
+}
+.row img{
+  width: 300px;
 }
 /*--------Events----------*/
+#event-title{
+  color: #000000;
+  font-size: 48px;
+  margin-top: 115px;
+  text-align: center;
+  margin-bottom:-50px;
+}
 .calendar{
-  margin-top: 100px;
+  margin-left: 50px;
+  margin-top: 80px;
+  box-shadow: 8px 8px 5px #888888;
   margin-bottom: 50px;
-
+  width: 500px;
 }
 
 article{
+  padding:10px;
   position: absolute;
-  right: 0px;
-  width: 280px;
-  height: 150px;
-  border: 1px black solid;
+  margin-top: 35px;
+  box-shadow: 8px 8px 5px #888888;
+  margin-left:550px;
+  text-align: center;
+  width: 300px;
+  height: 230px;
+  background-color: #cccc00;
 }
 
 
