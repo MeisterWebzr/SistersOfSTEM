@@ -1,5 +1,5 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
+/*GLOBAL STYLES
+---------------------------------------------------------------------*/
 /* Padding below the footer and lighter body text */
 html,
 body {
@@ -18,11 +18,17 @@ body {
   background-color: #dbe0e3;
 }
 
+#logo{
+   opacity: 0.8;
+   height: 60px;
+   width:180px;
+   float: left;
+   margin-top: 15px;
+}
 
 
-/* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
-
+/*NAVBAR
+--------*/
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
   .nav-pills > .active > a,
   .nav-pills > .active > a:hover,.nav-pills > li > a:hover {
@@ -57,14 +63,14 @@ body {
     background-color: transparent !important;
   }
   .nav-pills #purple{
-     text-decoration: none;
-  font-weight: bold;
-  border-radius:0px;
-  border-bottom-width: 6px;
-  border-bottom-style: solid;
-  border-bottom-color: #745296;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius:0px;
+      border-bottom-width: 6px;
+      border-bottom-style: solid;
+      border-bottom-color: #745296;
       color: #000 !important;
-    background-color: transparent !important;
+      background-color: transparent !important;
 
   }
 
@@ -72,59 +78,8 @@ body {
     float:right;
   }
 
-  #logo{
-    opacity: 0.8;
-    height: 60px;
-    width:180px;
-    float: left;
-    margin-top: 15px;
-  }
-
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-#slider
-{
-  width: 100%;
-  margin-top: 400px;
-}
-
-
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-  margin: 50px 0; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
-  color: black;
-  padding:8px ;
-  text-align: center;
-}
-
- #first{
-  background-color: #B5446E;
-  font-size: 35px;
- }
- 
- #second{
-  background-color: #cccc00;
-  font-size: 35px;
- }
- #third{
-  background-color: #745296;
-  font-size: 35px;
- }
-
-
-/* Footer
---------------------------*/
+  /* Footer
+------------*/
 footer{
   background-color: #cccc00;
   height: 45px;
@@ -135,6 +90,7 @@ footer{
   bottom:0;
   left:0;
 }
+
 
 footer p{
   font-size: 14px;
@@ -150,9 +106,8 @@ footer p{
 }
 
 
-/* RESPONSIVE CSS
--------------------------------------------------- */
-
+/* RESPOSIVE CSS
+----------------*/
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
@@ -191,9 +146,167 @@ footer p{
 }
 
 
-/* EDU-SOURCE CSS
-------------------------------------*/
 
+/*HOMEPAGE
+---------------------------------------------------------------------*/
+
+/*Title
+---------------*/
+
+/*Slideshow/CTA IMAGE W/text idk??
+---------------*/
+
+
+#slideshow2 > #CTA2{
+  margin-top: 5%;
+  margin-bottom: -30px;
+  width: 700px;
+  margin-left: 10px;
+  display: inline-block;
+  border:2px black solid;
+}
+
+/*Ads/Description
+----------------*/
+
+}.featurette-divider > .rows{
+width: 100%;
+height:250px;
+display: inline-block;
+}
+
+
+.featurette-divider {
+  margin: 50px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: black;
+  padding:8px;
+  font-size: 18px;
+  text-align: center;
+}
+
+ #first{
+  background-color: #B5446E;
+  font-size: 30px;
+  padding: 23px;
+  border-radius: 5px;
+ }
+ 
+ #second{
+  background-color: #cccc00;
+  font-size: 30px;
+  padding: 23px;
+  border-radius: 5px;
+ }
+ #third{
+  background-color: #745296;
+  font-size: 30px;
+  border-radius: 5px;
+ }
+
+
+/*ABOUT US PAGE
+---------------------------------------------------------------------*/
+
+/*Title
+---------------*/
+.title-about{
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+
+/*Bio/Text
+---------------*/
+
+
+.paragraph{
+ margin-left: 15px;
+ text-align: left;
+ margin-top:10px;
+ float:left;
+ font-size: 15px;
+ width: 45%;
+
+}
+
+.paragraph p{
+  text-indent: 15px;
+  font-size:15px; 
+  margin-left: 60px;
+
+}
+
+/*Top CTA
+---------------*/
+.biography{
+    overflow: auto;
+}
+
+.first-image{
+  padding-left:5.0%;
+  overflow: hidden;
+  margin-bottom: 15px;
+  }
+
+/*Quote/page spliter
+------------------*/
+.quote{
+  padding: 5px;
+  background-color: #B5446E;
+  margin-bottom: 20px;
+  vertical-align: center;
+  margin-left:3%;
+  border-radius: 5px;
+  width: 98%;
+  opacity: 0.7;
+}
+
+.quote p{
+  font-size: 15px;
+  text-align: center;
+  font-weight: 300px;
+  color: #000000;
+}
+
+/*Bottem Ads
+---------------*/
+}
+#img-two{
+  float: left;
+  margin-left: -15px;
+
+}
+
+#img-three{
+  float:right;
+  margin-right:12%;
+
+
+}
+
+.row{
+  margin-bottom: 25px;
+  width: 100%;
+  margin-left: 35px;
+  margin-bottom: -20px;
+
+}
+/*EDUSOURCE PAGE
+---------------------------------------------------------------------*/
+
+/*Title/h1
+---------------*/
+
+
+/*DropDow Links
+---------------*/
 #droppers{
   vertical-align: center;
   text-align: center;
@@ -224,8 +337,10 @@ footer p{
 
 }
 
-/* Edusource/Drop DOWN
--------------------------------------*/
+
+
+/*Info on each drop down
+------------------------*/
 /*First Drop Down*/
 
 .firstchild a, .secondchild a, .thirdchild a, .fourthchild a{
@@ -321,153 +436,16 @@ footer p{
 #accordion h2.active {
  background-color:#4BB347;   
 }
-/* Contact Us
--------------------------------*/
-
-form{
-  margin-top: 15%;
-  vertical-align: center;
-  width: 50%;
-  margin-left: 23%;
-}
 
 
-#name, #email, #message, #singlebutton{
-  width: 100%;
-  border: #cccc00 solid 1.5px;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
-
-legend {
-  margin-top: 5px;
-  color:#dbe0e3;
-  border: #cccc00 solid 1.5px;
-  text-align: center;
-  background-color:#745296;
-  border-radius: 8px;
-  width:68%;
-  font-size: 30px;
-  vertical-align: center;
-
-}
-
-#button{
-  background-color: #745296;
-  color: #dbe0e3;
-  border-radius: 8px;
-  font-size: 22px;
-}
+/*STEM EVENT CAL
+---------------------------------------------------------------------*/
+/*Title/h1
+---------------*/
 
 
-#message , #email , #name, #button{
-  width: 35%;
-  margin-left: 6%;
-  padding-left: 8px;
-}
-/*
-#name , #email{
-  height: 50px;
-  width: 35%;
-}
-
-legend {
-  margin-top: 5px;
-  color:#dbe0e3;
-  border: #cccc00 solid 1.5px;
-  text-align: center;
-  background-color:#745296;
-  border-radius: 8px;
-}
-
-legend, fieldset #name, fieldset #email, fieldset #message, fieldset #button{
-width: 40%;
-margin-left: 10%;
-padding: 5px;
-}
-
-/* DIY
--------------------------------------*/
-.thumb {
-    margin-bottom: 30px;
-}
-
-.page-header{
-  text-align: center;
-  margin-top: 10%;
-}
-
-
-/* About US
--------------------------------------*/
-.title-about{
-  text-align: center;
-  margin-top: 10%;
-  margin-bottom: 3%;
-}
-.biography{
-    vertical-align: center;
-    overflow: auto;
-}
-
-.paragraph{
- margin-left: 20px;
- text-align: center;
- margin-top:15px;
- float:left;
- font-size: 15px;
- width: 35%;
-
-}
-
-.paragraph p{
-  margin-left: 22px;
-}
-#img-two{
-  float: left;
-  margin-left: -15px;
-
-}
-
-#img-three{
-  float:right;
-  margin-right:14%;
-
-
-}
-
-.first-image{
-  padding-left:7.0%;
-  overflow: hidden;
-  margin-bottom: 15px;
-  }
-
-.quote{
-  padding: 5px;
-  background-color: #B5446E;
-  margin-bottom: 20px;
-  vertical-align: center;
-  margin-left:5%;
-  border-radius: 5px;
-  width: 85%;
-  opacity: 0.7;
-}
-
-.quote p{
-  font-size: 15px;
-  text-align: center;
-  font-weight: 300px;
-  color: #000000;
-}
-
-.row{
-  margin-bottom: 25px;
-  width: 100%;
-  margin-left: 35px;
-  margin-bottom: -20px;
-
-}
-/*--------Events---------- */
+/*Cal
+---------------*/
  .cal-title{ margin-top: 15%; text-align: center; padding-bottom: 10px; font-size: 42px; color: #745296; }
 
   .calendar { width: 100%; font-size: 0.75em;/*12*/ line-height: 1.25em;/*15*/ border-collapse: collapse; border-spacing: 0; }
@@ -531,32 +509,75 @@ padding: 5px;
 
   }
 
-/*--------Home-------*/
-.featurette-divider > .rows{
-width: 100%;
-height:250px;
-display: inline-block;
+
+/*Text/Decription
+----------------*/
+
+
+
+
+
+/*DIY PAGE
+---------------------------------------------------------------------*/
+
+/*Title/H1
+---------------*/
+
+/*Project Image Gallery
+---------------------*/
+.thumb {
+    margin-bottom: 30px;
 }
 
-#slideshow{
-  width: 345px;
-  margin-top:10%;
-  float: right;
-  margin-right: 20px;
-  height: 283px;
-}
-
-#slideshow > #CTA{
-  float: right;
+.page-header{
+  text-align: center;
+  margin-top: 10%;
 }
 
 
+/*CONTACT US PAGE
+---------------------------------------------------------------------*/
 
-#slideshow2 > #CTA2{
-  float: left;
-  height: 250px;
-  margin-top:10%;
+/*Title/H1
+---------------*/
+form > fieldset >legend {
+width: 70%;
+}
+/*Contact Form
+---------------*/
+form{
+  margin-top: 15%;
+  vertical-align: center;
+  width: 50%;
+  margin-left: 23%;
 }
 
 
+#name, #email, #message, #singlebutton{
+  width: 100%;
+  border: #cccc00 solid 1.5px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
 
+#button{
+  background-color: #745296;
+  color: #dbe0e3;
+  border-radius: 8px;
+  font-size: 22px;
+}
+
+
+#message , #email , #name, #button{
+  width: 35%;
+  margin-left: 6%;
+  padding-left: 8px;
+}
+
+
+/*myContact Info
+---------------*/
+
+
+/*Images
+---------------*/
