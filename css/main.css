@@ -11,7 +11,6 @@ body {
   margin:0;
   padding:0;
   height:100%;
-  border: black 1px solid;
 }
 #wrapper {
   min-height:100%;
@@ -95,7 +94,6 @@ footer{
   padding-right: 25px;
   position:absolute;
   bottom:0;
-  border: 2px black solid;
   left:0;
 }
 
@@ -163,14 +161,12 @@ footer p{
 /*Slideshow/CTA IMAGE W/text idk??
 ---------------*/
 
-
 #slideshow2 > #CTA2{
   margin-top: 5%;
-  margin-bottom: -50px;
-  width: 700px;
-  margin-left: 10px;
+  width: 600px;
+  margin-left: 50px;
   display: inline-block;
-  border:2px black solid;
+  border:2px #ccc solid;
 }
 
 /*Ads/Description
@@ -178,7 +174,7 @@ footer p{
 
 }.featurette-divider > .rows{
 width: 100%;
-height:250px;
+height:200px;
 display: inline-block;
 }
 
@@ -193,28 +189,47 @@ display: inline-block;
   line-height: 1;
   letter-spacing: -1px;
   color: black;
-  padding:8px;
+  padding:5px;
   font-size: 18px;
   text-align: center;
 }
 
  #first{
+  width: 200px;
   background-color: #B5446E;
   font-size: 30px;
-  padding: 23px;
+  margin-left: 5px;
   border-radius: 5px;
+ }
+
+ #first-text{
+  text-align: center;
+
  }
  
  #second{
   background-color: #cccc00;
   font-size: 30px;
-  padding: 23px;
+  margin-left: 5px;
+  width: 200px;
   border-radius: 5px;
  }
+
+  #second-text{
+  text-align: center;
+
+ }
  #third{
+  width: 200px;
   background-color: #745296;
   font-size: 30px;
+  margin-left: 5px;
   border-radius: 5px;
+ }
+
+  #third-text{
+  text-align: center;
+
  }
 
 
@@ -227,11 +242,11 @@ display: inline-block;
 
 .title-about{
   text-align: center;
-  margin-top: 13%;
+  margin-top: 15%;
   background-color: #745296;
   color: #dbe0e3;
   border-radius: 8px;
-  margin-bottom: %;
+  margin-bottom: 5%;
   width: 60%;
   margin-left: 20%;
 }
@@ -270,7 +285,8 @@ display: inline-block;
 .quote{
   padding: 5px;
   background-color: #B5446E;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
   vertical-align: center;
   margin-left:3%;
   border-radius: 5px;
