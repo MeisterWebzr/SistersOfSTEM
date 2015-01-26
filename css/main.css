@@ -11,6 +11,7 @@ body {
   margin:0;
   padding:0;
   height:100%;
+  border: black 1px solid;
 }
 #wrapper {
   min-height:100%;
@@ -19,8 +20,6 @@ body {
 }
 
 body {
-  padding-top: 20px;
-  padding-bottom: 40px;
   color: #5a5a5a;
   background-color: #dbe0e3;
 }
@@ -96,6 +95,7 @@ footer{
   padding-right: 25px;
   position:absolute;
   bottom:0;
+  border: 2px black solid;
   left:0;
 }
 
@@ -106,10 +106,10 @@ footer p{
 
 #sm{
   float: right;
-  padding: 8px;
-  margin-bottom: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
   display: inline-block;
-  height: 80%;
+  height: 60%;
 }
 
 

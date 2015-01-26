@@ -1,3 +1,31 @@
+<<<<<<< HEAD
+=======
+  <?PHP
+require_once("./include/fgcontactform.php");
+
+$formproc = new FGContactForm();
+
+
+//1. Add your email address here.
+//You can add more than one receipients.
+$formproc->AddRecipient('free.rosas@gmail.com'); //<<---Put your email address here
+
+
+//2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
+// and put it here
+$formproc->SetFormRandomKey('Uh4ipNNG89tzVx6');
+
+
+if(isset($_POST['submitted']))
+{
+   if($formproc->ProcessForm())
+   {
+        $formproc->RedirectToURL("thank-you.php");
+   }
+}
+
+?>
+>>>>>>> 859c845697c876dbf74b71848126a60e2b6926fc
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,11 +53,18 @@
 
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
+<<<<<<< HEAD
     <link rel="STYLESHEET" type="text/css" href="contact.css" />
     <script type='text/javascript'>
 
 
     var frmvalidator  = new Validator("contact");
+=======
+
+    <script type='text/javascript'>
+
+    var frmvalidator  = new Validator("contactus");
+>>>>>>> 859c845697c876dbf74b71848126a60e2b6926fc
     frmvalidator.EnableOnPageErrorDisplay();
     frmvalidator.EnableMsgsTogether();
     frmvalidator.addValidation("name","req","Please provide your name");
@@ -41,6 +76,22 @@
     frmvalidator.addValidation("message","maxlen=2048","The message is too long!(more than 2KB!)");
 </script>
 
+<<<<<<< HEAD
+=======
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+      <title>Contact us</title>
+
+      <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
+</head>
+<div class="container">
+      <link rel="STYLESHEET" type="text/css" href="contact.css" />
+      <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
+</head>
+>>>>>>> 859c845697c876dbf74b71848126a60e2b6926fc
 <div class="container">
         <a href="index.html">
         <img id ="logo" src="images/logo.png" alt=""></a>
@@ -54,7 +105,12 @@
 <body>
 <div id="wrapper">
       <!-- Form Code Start -->
+<<<<<<< HEAD
       <form id='contactus' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
+=======
+<form>
+
+>>>>>>> 859c845697c876dbf74b71848126a60e2b6926fc
   <fieldset>
       <legend>Contact us</legend>
         <input type='hidden' name='submitted' id='submitted' value='1'/>
