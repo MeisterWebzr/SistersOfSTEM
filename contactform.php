@@ -13,7 +13,7 @@ $formproc = new FGContactForm();
 
 //1. Add your email address here.
 //You can add more than one receipients.
-$formproc->AddRecipient('tests@html-form-guide.com'); //<<---Put your email address here
+$formproc->AddRecipient('free.rosas@gmail'); //<<---Put your email address here
 
 
 //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
@@ -41,7 +41,7 @@ if(isset($_POST['submitted']))
 <body>
 
 <!-- Form Code Start -->
-<form id='contactus' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
+<form id='contact' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
 <fieldset >
 <legend>Contact us</legend>
 
@@ -82,7 +82,7 @@ Uses the excellent form validation script from JavaScript-coder.com-->
 <script type='text/javascript'>
 // <![CDATA[
 
-    var frmvalidator  = new Validator("contactus");
+    var frmvalidator  = new Validator("contact");
     frmvalidator.EnableOnPageErrorDisplay();
     frmvalidator.EnableMsgsTogether();
     frmvalidator.addValidation("name","req","Please provide your name");

@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
   <?PHP
 require_once("./include/fgcontactform.php");
 
@@ -23,6 +25,7 @@ if(isset($_POST['submitted']))
 }
 
 ?>
+>>>>>>> 859c845697c876dbf74b71848126a60e2b6926fc
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -46,13 +49,22 @@ if(isset($_POST['submitted']))
       <!-- Latest compiled and minified JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
+      <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
 
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
+<<<<<<< HEAD
+    <link rel="STYLESHEET" type="text/css" href="contact.css" />
+    <script type='text/javascript'>
+
+
+    var frmvalidator  = new Validator("contact");
+=======
 
     <script type='text/javascript'>
 
     var frmvalidator  = new Validator("contactus");
+>>>>>>> 859c845697c876dbf74b71848126a60e2b6926fc
     frmvalidator.EnableOnPageErrorDisplay();
     frmvalidator.EnableMsgsTogether();
     frmvalidator.addValidation("name","req","Please provide your name");
@@ -64,6 +76,8 @@ if(isset($_POST['submitted']))
     frmvalidator.addValidation("message","maxlen=2048","The message is too long!(more than 2KB!)");
 </script>
 
+<<<<<<< HEAD
+=======
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
@@ -77,6 +91,7 @@ if(isset($_POST['submitted']))
       <link rel="STYLESHEET" type="text/css" href="contact.css" />
       <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
 </head>
+>>>>>>> 859c845697c876dbf74b71848126a60e2b6926fc
 <div class="container">
         <a href="index.html">
         <img id ="logo" src="images/logo.png" alt=""></a>
@@ -90,8 +105,12 @@ if(isset($_POST['submitted']))
 <body>
 <div id="wrapper">
       <!-- Form Code Start -->
+<<<<<<< HEAD
+      <form id='contactus' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
+=======
 <form>
 
+>>>>>>> 859c845697c876dbf74b71848126a60e2b6926fc
   <fieldset>
       <legend>Contact us</legend>
         <input type='hidden' name='submitted' id='submitted' value='1'/>
