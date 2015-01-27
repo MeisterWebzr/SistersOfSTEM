@@ -41,7 +41,7 @@ if(isset($_POST['submitted']))
 <body>
 
 <!-- Form Code Start -->
-<form id='contact' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
+<form id='contact' action='<?php echo $formproc->GetSelfScript(); ?>' method='get' accept-charset='UTF-8'>
 <fieldset >
 <legend>Contact us</legend>
 
